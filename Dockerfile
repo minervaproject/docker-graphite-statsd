@@ -78,6 +78,6 @@ RUN apt-get clean\
 
 # defaults
 
-VOLUME ["/opt/graphite", "/etc/nginx", "/etc/logrotate.d", "/var/log"]
+VOLUME ["/opt/graphite/storage/whisper", "/etc/nginx", "/etc/logrotate.d", "/var/log"]
 ENV HOME /root
 CMD ["/sbin/my_init"]
